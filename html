@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personality Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="start-page" class="start-page">
+        <div class="image-container">
+            <img src="intro-image.png" alt="Intro Image" class="intro-image">
+            <button id="start-quiz" class="start-button" onclick="startQuiz()">Click Here to Begin</button>
+        </div>
+    </div>
+    <div id="quiz-page" style="display: none;">
+        <div id="progress-bar-container">
+            <div id="progress-bar"></div>
+        </div>
+        <h1>Personality Quiz</h1>
+        <div id="quiz">
+            <!-- Questions will be inserted here by JavaScript -->
+        </div>
+        <button id="next">Next</button>
+        <div id="results" style="display: none;"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
